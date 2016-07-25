@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+Initializing a repository changes it into a Git repository.
+Here, the meta data used to store all the changes made to a file are stored, and other important information.
+We need to do it so that Git can perform its version control function.
