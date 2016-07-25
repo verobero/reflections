@@ -2,3 +2,10 @@ What happens when you initialize a repository? Why do you need to do it?
 Initializing a repository changes it into a Git repository.
 Here, the meta data used to store all the changes made to a file are stored, and other important information.
 We need to do it so that Git can perform its version control function.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging directory is the connection between a working directory and the repository.
+A working directory is the currently active directory.
+While a repository is a directory which is supported with version control features.
+Staging area is the area where a working directory is changed into a repository.
