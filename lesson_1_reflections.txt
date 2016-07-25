@@ -1,0 +1,35 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Diff has the ability to find the differences between 2 files. 
+By finding the differences between an old file (which is working) and a new file (which is not working), 
+we will be able to see what is causing the problem/bug in the new file by examining the old file.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Having an entire history would let us know what changes we made to the program.
+For example, logs of changes would be useful to know what kind of features we added to the second version of the program.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+By manually choosing when to commit, we know exactly what changes are being done to the file.
+By automatically saving the files, we don't know exactly what changes are made, and those changes might not be complete yet
+(ex: halfway typed)
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Git can operate on different kinds of files which are text-based. So, there are chances that one file can be interrelated to another file.
+But in Google Docs, files are treated individually, so commits have to be done separately.
+
+
+How can you use the commands git log and git diff to view the history of files?
+git log: used to view what kinds of commits/changes are done to a file.
+git diff: find out the exact changes made to the file.
+
+
+How might using version control make you more confident to make changes that could break something?
+With version control, we don't need to remember every exact change we did that broke the program.
+The git version control feature can remember it for us, and remember every change in code that we did.
+So that we can always return to the code where the program is still working, before breaking the program.
+
+
+Now that you have your workspace set up, what do you wnt to try using Git for?
+Now that I know Git is useful for version control, I probably might want to try implementing it on my future projects to make it easier to control the changes I create to my codes.
