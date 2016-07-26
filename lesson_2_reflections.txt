@@ -24,3 +24,15 @@ Branches would be helpful when we want to create another version of the master f
 How do the diagrams help you visualize the branch structure?
 We can trace back which changes are applied to which branch and which are not.
 We can also find out how many versions there are of the program.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Result of merging two branches together:
+We can merge the work of one version to another.
+Represent in a diagram because there are branches, so it will be easier to represent it in a diagram.
+
+What are the pros and cons of Git's automatic merging vs always doing merges manually?
+Automatic pros: we don't have to search the differences one by one and edit them.
+Automatic cons: we don't know which changes are merged.
+Manual pros: we know exactly what is merged with what.
+Manual cons: we have to edit the codes to merge one by one.
