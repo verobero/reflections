@@ -17,3 +17,5 @@ This function lets us see the differences between those two files
 And the difference can show whether we have done one logical change.
 
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches would be helpful when we want to create another version of the master file, but would like to still keep the master file.
