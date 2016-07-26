@@ -9,3 +9,11 @@ The staging directory is the connection between a working directory and the repo
 A working directory is the currently active directory.
 While a repository is a directory which is supported with version control features.
 Staging area is the area where a working directory is changed into a repository.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+We can compare the file in the staging area to the file in the repository to with git diff
+This function lets us see the differences between those two files
+And the difference can show whether we have done one logical change.
+
+
