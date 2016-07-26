@@ -7,3 +7,12 @@ And all these results can be connected via github.
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 -might take up too much resources to update periodically
 -there might be cases where we intentionally want them to be different to test out new things in the local before updating to remote.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks: cloning from another repository on GitHub to GitHub
+Clones: cloning from one repository to a local repository
+Branches: creating another version of the currently active branch.
+Forks are used to clone from GitHub to GitHub.
+Clones are used to clone from one repository (local or remote) to local repository.
+Branchs are used to create a version of the currently active branch, while still maintaining the main branch.
