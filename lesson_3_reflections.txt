@@ -16,3 +16,10 @@ Branches: creating another version of the currently active branch.
 Forks are used to clone from GitHub to GitHub.
 Clones are used to clone from one repository (local or remote) to local repository.
 Branchs are used to create a version of the currently active branch, while still maintaining the main branch.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+Storing the last known state of remote lets git know the status of the remote's last commit
+when pulled to local.
+That way, we can compare files from remote and local before merging
+to see whether there are conflicts.
