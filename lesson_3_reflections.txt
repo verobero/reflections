@@ -23,3 +23,10 @@ Storing the last known state of remote lets git know the status of the remote's 
 when pulled to local.
 That way, we can compare files from remote and local before merging
 to see whether there are conflicts.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Without using Git or GitHub:
+Would probably share files with colleagues through a cloud service like Google Drive.
+What's easier: Interface and user experience.
+What's harder: Harder to manage and customize versions.
